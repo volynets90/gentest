@@ -635,19 +635,66 @@ button {
     }
 }
 
+
+
+@media screen and (max-width: 991px) {
+    .subscribe_form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subscribe_caption {
+        display: block;
+    }
+
+    .subscribe, .subscribe_caption {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subscribe_form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -15px;
+    }
+
+    .footer_menu {
+        margin-top: -20px;
+        width: auto;
+        align-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .footer_menu_item {
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
 @media screen and (max-width: 475px) {
     .someList li {
         margin-left: -50px;
     }
-
+    .footer_menu{
+        flex-wrap: wrap;
+        margin-top: -10px;
+    }
+    .footer_menu_item:nth-child(2){
+        margin-right: 20px;
+    }
     .firstBlock_btn {
         margin-left: -60px;
         margin-bottom: 0;
     }
 
-    .mainPhoto img {
-        margin-top: -90px;
-        margin-bottom: -50px;
+    .mainPhoto  {
+        margin-top: -30px;
+        margin-bottom: 0px;
     }
 
     .footer_menu_item:last-child {
@@ -697,55 +744,10 @@ button {
         text-align: center;
     }
 }
-
-@media screen and (max-width: 991px) {
-    .subscribe_form {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .subscribe_caption {
-        display: block;
-    }
-
-    .subscribe, .subscribe_caption {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .subscribe_form {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -15px;
-    }
-
-    .footer_menu {
-        margin-top: -20px;
-        width: auto;
-        align-content: space-between;
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
-
-    .footer_menu_item {
-        margin: 0;
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .footer_menu_item {
         font-size: 15px;
-        margin-right: 15px;
-    }
-
-    .footer_menu {
-        margin-left: 80px;
+        
     }
 }
 
