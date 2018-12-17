@@ -134,11 +134,11 @@ button {
 
 .mainPhoto {
     padding-top: 19px;
-
+    height: auto;
     img {
         width: 940px;
         max-width: 100%;
-        height: 300px;
+        height: auto;
         margin-left: 15px;
         overflow-x: hidden;
     }

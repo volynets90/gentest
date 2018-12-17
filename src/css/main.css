@@ -129,11 +129,12 @@ button {
   margin-left: -17px; }
 
 .mainPhoto {
-  padding-top: 19px; }
+  padding-top: 19px;
+  height: auto; }
   .mainPhoto img {
     width: 940px;
     max-width: 100%;
-    height: 300px;
+    height: auto;
     margin-left: 15px;
     overflow-x: hidden; }
 
