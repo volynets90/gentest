@@ -130,13 +130,11 @@ button {
 
 .mainPhoto {
   padding-top: 19px;
-  height: auto; }
-  .mainPhoto img {
-    width: 940px;
-    min-width: 100%;
-    height: auto;
-    margin-left: 15px;
-    overflow-x: hidden; }
+  width: 940px;
+  min-width: 100%;
+  height: auto;
+  margin-left: 0px;
+  overflow-x: hidden; }
 
 .mainPhoto_caption {
   margin-top: 20px;

@@ -133,15 +133,12 @@ button {
 }
 
 .mainPhoto {
-    padding-top: 19px;
-    height: auto;
-    img {
+        padding-top: 19px;
         width: 940px;
         min-width: 100%;
         height: auto;
-        margin-left: 15px;
+        margin-left: 0px;
         overflow-x: hidden;
-    }
 }
 
 .mainPhoto_caption {
