@@ -122,7 +122,8 @@ button {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.224553);
     border-radius: 3px;
     transition-duration: 0.5s;
-    &:hover{
+
+    &:hover {
         background: linear-gradient(180deg, rgb(77, 156, 40) 0%, rgb(91, 187, 104) 100%);
         border: none;
     }
@@ -133,10 +134,11 @@ button {
 }
 
 .mainPhoto {
-        padding-top: 19px;
-        width: 940px;
-        max-width: 100%;
-        height: auto;
+    padding-top: 19px;
+    width: 940px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
 }
 
 .mainPhoto_caption {
@@ -359,7 +361,8 @@ button {
     background: #A7B4BA;
     margin-right: 10px;
     transition-duration: 0.5s;
-    &:hover{
+
+    &:hover {
         background: #413f3f;
     }
 }
@@ -367,7 +370,8 @@ button {
 .button_like {
     background: linear-gradient(180deg, #66C943 0%, #369920 100%);
     transition-duration: 0.5s;
-    &:hover{
+
+    &:hover {
         background: linear-gradient(180deg, rgb(201, 170, 67) 0%, #caa62e 100%);
     }
 }
@@ -484,20 +488,21 @@ button {
         color: rgb(238, 211, 59);
     }
 }
-.toTop{
+
+.toTop {
     height: 100%;
     position: relative;
 }
-.toTop_button{
+
+.toTop_button {
     width: 40px;
     height: 40px;
     position: fixed;
     top: 80%;
     left: 80%;
     z-index: 199;
-    
-    
 }
+
 /*       Adaptive markup           */
 @media screen and (max-width: 965px) {
     .button {
@@ -508,12 +513,14 @@ button {
         }
     }
 }
+
 @media screen and (max-width: 550px) {
-    .mainPhoto{
+    .mainPhoto {
         margin-top: -50px;
         margin-bottom: 30px;
     }
 }
+
 @media screen and (max-width: 990px) {
     .logo {
         margin-left: 20px;
@@ -619,14 +626,76 @@ button {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .footer_menu_item {
-        font-size: 15px;
-        margin-right: 15px;
+@media screen and (max-width: 436px) {
+    .footer_menu {
+        margin-top: -13px;
     }
 
-    .footer_menu {
-        margin-left: 80px;
+    .footer_menu_item:last-child {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .someList li {
+        margin-left: -50px;
+    }
+
+    .firstBlock_btn {
+        margin-left: -60px;
+        margin-bottom: 0;
+    }
+
+    .mainPhoto img {
+        margin-top: -90px;
+        margin-bottom: -50px;
+    }
+
+    .footer_menu_item:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .firstBlock_btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe {
+        width: 533px;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .subscribe_button {
+        width: 168px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .aside {
+        display: none;
+    }
+
+    .mainPhoto_caption {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    .list, .overview_fixPosition {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .overview_h2 {
+        margin-top: 90px;
+        text-align: center;
     }
 }
 
@@ -670,74 +739,19 @@ button {
     }
 }
 
-@media screen and (max-width: 852px) {
-    .aside {
+@media screen and (max-width: 1200px) {
+    .footer_menu_item {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .footer_menu {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .toTop {
         display: none;
     }
-
-    .mainPhoto_caption {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-    }
-
-    .list, .overview_fixPosition {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .overview_h2 {
-        margin-top: 90px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .subscribe {
-        width: 533px;
-        max-width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .subscribe_button {
-        width: 168px;
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 436px) {
-    .footer_menu {
-        margin-top: -13px;
-    }
-
-    .footer_menu_item:last-child {
-        margin-top: 0px;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .someList li {
-        margin-left: -50px;
-    }
-
-    .firstBlock_btn {
-        margin-left: -60px;
-        margin-bottom: 0;
-    }
-
-    .mainPhoto img {
-        margin-top: -90px;
-        margin-bottom: -50px;
-    }
-
-    .footer_menu_item:last-child {
-        margin-top: 10px;
-    }
-}
-@media screen and (max-width: 1570px) {
-.toTop{
-    display: none;
-}
 }
