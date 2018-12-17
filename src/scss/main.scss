@@ -135,10 +135,8 @@ button {
 .mainPhoto {
         padding-top: 19px;
         width: 940px;
-        min-width: 100%;
+        max-width: 100%;
         height: auto;
-        margin-left: 0px;
-        overflow-x: hidden;
 }
 
 .mainPhoto_caption {
@@ -510,7 +508,12 @@ button {
         }
     }
 }
-
+@media screen and (max-width: 550px) {
+    .mainPhoto{
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+}
 @media screen and (max-width: 990px) {
     .logo {
         margin-left: 20px;
