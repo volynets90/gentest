@@ -133,7 +133,7 @@ button {
   height: auto; }
   .mainPhoto img {
     width: 940px;
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
     margin-left: 15px;
     overflow-x: hidden; }
