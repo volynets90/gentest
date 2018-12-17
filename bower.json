@@ -1,0 +1,17 @@
+{
+  "name": "genesis",
+  "description": "test task",
+  "main": "index.js",
+  "authors": [
+    "Vitaliy Volynets"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
