@@ -51,7 +51,7 @@ gulp.task('css-libs', ['sass'], function(){
 
 gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
-        'src/libs/semantic/dist/semantic.js',
+        'src/libs/jquery/dist/jquery.min.js',
         'src/js/main.js'
         ])
       //  .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
